@@ -1,0 +1,7 @@
+jdhgiNormally, files are opened in text mode, that means,
+
+ you read and write strings from and to the file,
+ which are encoded in a specific encoding.
+ If encoding is not specified, the default is 
+platform dependent (see open()).
+is is is bis sis his 
