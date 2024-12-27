@@ -30,6 +30,7 @@ class Matrix:
         else :
             self.__orderList = self.order.split("x")
             self.numberOfRows, self.numberOfColumn = int(self.__orderList[0]), int(self.__orderList[-1])
+            self.numberOfElement: int = self.numberOfRows * self.numberOfColumn
             
     def InitMatrix(self, matrix = [], matrixReturn = True, matrixPrint = False):
         if matrix == []:
@@ -118,8 +119,14 @@ class Matrix:
             return result_table
         else:
             raise TypeError("Unsupported type for multiplication")
+        
+    def Add(self, other = 0):
+        tempMatrix = self.matrix
+        if isinstance(other, (int, float)):
+            for i in self.matrix:
+                for j in i :
+                    
 
-            
             
 A = Matrix("2x2")
 print(f"{A.numberOfRows}x{A.numberOfColumn}")
@@ -130,6 +137,5 @@ B = Matrix("2x2")
 print(f"{B.numberOfRows}x{B.numberOfColumn}")
 print(B.InitMatrix(matrix=[[1,2], [4,8]]))
 print(B.Multiply(2))
-
 print(A.Multiply(B))
 #ob NOHES.gg

@@ -16,3 +16,5 @@ def loading(animation = "|/-\\", startTime = 5, text = "Hi. On behalf of Loading
             if time.time() - start_time > startTime:  # The animation will last for 10 seconds
                 sys.stdout.flush()
                 break
+        
+loading()

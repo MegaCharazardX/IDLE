@@ -8,10 +8,10 @@ def tprint(word, interval = 0.015):
     #     print(char, end = "")
     # print("\n")
         sys.stdout.write(char)
-        sys.stdout.flush()
+        #sys.stdout.flush()
         
         
-# tprint("Hello. This Hari Dhejus V.S. of grade 12.")
+tprint("Hello. This Hari Dhejus V.S. of grade 12.")
 
 # pre = "Mrs"
 # gender = "boy"
