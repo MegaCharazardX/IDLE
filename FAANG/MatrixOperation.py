@@ -29,15 +29,8 @@ class Matrix:
         else:
             self.__orderList = self.order.split("x")
             self.numberOfRows, self.numberOfColumn = int(self.__orderList[0]), int(self.__orderList[-1])
-<<<<<<< HEAD
-            self.numberOfElement: int = self.numberOfRows * self.numberOfColumn
             
-    def InitMatrix(self, matrix = [], matrixReturn = True, matrixPrint = False):
-=======
-
-    def InitMatrix(self, matrix=[], matrixReturn=True, matrixPrint=False):
->>>>>>> 8470d8735bc3736b5a8fbc13e9c8bda776e01762
-        if matrix == []:
+        if self.matrix == []:
             for i in range(self.numberOfRows):
                 self.__row = input(f"Enter the row number {i + 1} (Elements separated by ,) : ").split(",")
                 if len(self.__row) != self.numberOfColumn:

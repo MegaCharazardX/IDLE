@@ -1,6 +1,9 @@
-print("THIS IS A TRAIL PROGRAM!")
-desision = input("Ht Enter to run thie program")
-if desision == "" :
-    print("Hello!!")
-    for i in range (0,1000000000000000000000000000000000000):
-        print (i)
+from kivy.app import App
+from kivy.uix.label import Label
+
+class TestApp(App):
+    def build(self):
+        return Label(text="Hello, Kivy!")
+
+TestApp().run()
+

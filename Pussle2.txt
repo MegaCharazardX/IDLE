@@ -1,0 +1,14 @@
+ N  A  O  E  U  V  L  L  I  U  Z  U 
+ B  N  E  H  V  K  L  L  O  O  T  F 
+ A  T  X  E  V  X  Y  G  Q  D  H  A 
+ Q  E  T  Y  L  T  A  A  Q  S  S  R 
+ P  A  R  Q  S  V  J  L  X  I  S  H 
+ B  T  A  A  A  X  I  D  X  S  G  H 
+ I  E  V  H  H  H  V  U  T  I  U  Q 
+ A  R  A  S  E  F  H  I  M  M  T  W 
+ K  L  G  K  L  E  B  A  O  E  J  E 
+ O  J  A  L  L  A  D  V  E  R  Y  G 
+ G  M  N  Q  O  W  P  D  P  P  C  H 
+ T  O  T  A  M  L  D  P  I  M  M  Q 
+
+['Hello', 'Extravagant', 'AntEater', 'Premisis', 'Vijay']
