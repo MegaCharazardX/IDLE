@@ -2,7 +2,7 @@ import time
 import sys
 import string
 
-search = "Hello"
+search = "Hello World"
 count = 0
 OPsearch = ""
 
