@@ -1,0 +1,17 @@
+ T  D  C  U  J  L  U  B  G  K  Y  Q  I  U  G 
+ B  F  E  Q  H  V  U  A  R  W  O  K  L  T  C 
+ J  X  W  N  R  T  W  C  O  H  H  L  L  S  Z 
+ S  D  M  U  A  N  L  N  B  G  P  F  X  Z  D 
+ I  R  Q  I  R  A  D  E  S  P  A  S  I  T  O 
+ P  K  T  A  R  V  J  G  A  U  M  F  G  D  K 
+ J  F  C  F  B  E  G  A  R  E  V  A  F  F  W 
+ I  P  E  C  A  N  C  E  L  Z  O  E  U  Q  F 
+ I  E  F  U  N  G  E  V  K  D  D  G  N  J  Y 
+ X  A  R  X  S  E  I  J  J  Q  B  T  K  A  A 
+ U  R  E  Y  N  L  E  V  C  V  I  B  V  R  K 
+ V  M  P  I  W  Q  E  O  B  P  M  P  F  V  M 
+ I  C  D  O  R  I  T  O  S  S  B  T  L  D  Z 
+ R  F  R  S  B  H  S  X  B  S  K  W  Y  O  Y 
+ C  P  V  V  O  G  V  Q  P  T  B  E  K  S  Y 
+
+['perfect', 'Cancel', 'Doritos', 'Avenge', 'Average', 'Funk', 'Despasito']
