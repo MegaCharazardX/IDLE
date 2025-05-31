@@ -39,5 +39,5 @@ class ReverseSpiralMatrix:
         return self.table
     
 obj = ReverseSpiralMatrix(3)
-print(obj.ReverseSpiralMatrix()) 
+print(obj.SpiralMatrix()) 
         

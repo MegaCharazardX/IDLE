@@ -1,4 +1,4 @@
-jdhgiNormally, files are opened in text mode, that means,
+Normally, files are opened in text mode, that means,
 
  you read and write strings from and to the file,
  which are encoded in a specific encoding.

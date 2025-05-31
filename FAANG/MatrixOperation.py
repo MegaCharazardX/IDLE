@@ -118,11 +118,8 @@ class Matrix:
         if isinstance(other, (int, float)):
             for i in self.matrix:
                 for j in i :
-                    
+           
 
-<<<<<<< HEAD
-            
-=======
     def Add(self, other):
         if isinstance(other, Matrix):
             print(f"Adding matrix of order {other.order} to the current matrix")
@@ -200,7 +197,7 @@ class Matrix:
             raise TypeError("Unsupported type for subtraction")
 
 # Test code
->>>>>>> 8470d8735bc3736b5a8fbc13e9c8bda776e01762
+
 A = Matrix("2x2")
 print(f"{A.numberOfRows}x{A.numberOfColumn}")
 A.InitMatrix(matrix=[[1, 2], [2, 3]])
@@ -208,12 +205,12 @@ print(A)
 
 B = Matrix("2x2")
 print(f"{B.numberOfRows}x{B.numberOfColumn}")
-<<<<<<< HEAD
+
 print(B.InitMatrix(matrix=[[1,2], [4,8]]))
 print(B.Multiply(2))
 print(A.Multiply(B))
 #ob NOHES.gg
-=======
+
 B.InitMatrix(matrix=[[1, 2], [4, 8]])
 print(B)
 
@@ -254,4 +251,4 @@ print(B)
 
 print("Multiplying A and B:")
 print(A.Add(B))  # This should now multiply matrices A and B correctly.
->>>>>>> 8470d8735bc3736b5a8fbc13e9c8bda776e01762
+

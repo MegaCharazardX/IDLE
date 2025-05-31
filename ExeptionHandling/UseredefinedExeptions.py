@@ -16,11 +16,14 @@ class AgeChecking :
     def is_in_range(self):      
         if int(self.age) > int(self.uperagelimit) or int(self.age) < 0:
             raise ageOutBoundError(self.age, int(self.uperagelimit))
-
-f = open("Config.txt")
-filecontents = f.readline().split(",")
-uperagelimit = filecontents[0].split(":")[1]
-age = input("Enter Age : ")
-a = AgeChecking(age,uperagelimit)
-a.is_in_range()
+try :
+        
+    f = open("Config.txt", "a+")
+    filecontents = f.readlines()
+    uperagelimit = filecontents[0].split(":")[1]
+    age = input("Enter Age : ")
+    a = AgeChecking(age,uperagelimit)
+    a.is_in_range()
+except Exception as err:
+    print(f"Unexpected {err=}, {type(err)=}")
     

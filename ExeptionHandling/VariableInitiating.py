@@ -1,3 +1,3 @@
-Hari : str = 54
+Hari : str | None
 
 print(type(Hari))
