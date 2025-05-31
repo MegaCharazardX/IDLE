@@ -94,7 +94,7 @@ class Puzzle:
         f.write("\n\n")
         f.write(str(self.words))
         f.close()
-        tprint("Saved succesfully")
+        tprint("Saved succesfully\n")
 
 while True :
     def validateIsString(smthing):
@@ -107,7 +107,7 @@ while True :
     if validateIsString(_order):
         _order = int(_order)
     else :
-        tprint("!! Order Must Be An Integer !!")
+        tprint("!! Order Must Be An Integer !!\n")
         continue
     
     num_of_words = input("Enter the number of word (must be less than the order): ")
@@ -115,10 +115,10 @@ while True :
     if validateIsString(num_of_words):
         num_of_words = int(num_of_words)
     else :
-        tprint("!! Order Must Be An Integer !!")
+        tprint("!! Order Must Be An Integer !!\n")
         continue
     if num_of_words >= _order:
-        tprint("Must be less than the order")
+        tprint("Must be less than the order\n")
         continue
     i = 1    
     words = []
@@ -126,21 +126,21 @@ while True :
         word = input(f"Enter word {i} : ")
         if word.isalpha():
             if word in words :
-                tprint("Word already Entered, Try another word ")
+                tprint("Word already Entered, Try another word\n ")
                 continue
             elif len(word) <= _order :
                 i +=1
                 words.append(word)
             else:
-                tprint("Length of the word must be less than the order ")
+                tprint("Length of the word must be less than the order\n")
                 continue
         else:
-            tprint("Word must not contain aby special caracters")
+            tprint("Word must not contain aby special caracters\n")
             continue
                 
     root = Puzzle(order=_order, words = words)
-    tprint(root)
-    tprint(f"Words to be found : {words}")
+    tprint(f"{root}\n")
+    tprint(f"Words to be found : {words}\n")
 
     c = input("Enter C for going again, E for saving this puzzle, Q for quiting : ")
     
@@ -153,16 +153,16 @@ while True :
         if c in "cC":
             continue
         elif c in "qQ":
-            tprint("Thank u for playing")
+            tprint("Thank u for playing\n")
             break
         else:
-            tprint("Invalid choice")
+            tprint("Invalid choice\n")
     
     elif c in "qQ":
-        tprint("Thank u for playing")
+        tprint("Thank u for playing\n")
         break
     
     else:
-        tprint("Invalid choice")
+        tprint("Invalid choice\n")
         
         
